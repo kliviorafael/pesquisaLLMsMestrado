@@ -1,0 +1,158 @@
+[
+  {
+    "key": "productName",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "unitPrice",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "prodCode",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "addrStreet",
+    "value": "Rua das Flores, 123",
+    "expected": "streetAddress"
+  },
+  {
+    "key": "coord",
+    "value": {"lat": -23.5505, "lng": -46.6333},
+    "expected": "geo"
+  },
+  {
+    "key": "tel",
+    "value": "+5511999999999",
+    "expected": "telephone"
+  },
+  {
+    "key": "emplID",
+    "value": "ID-7890",
+    "expected": "employeeID"
+  },
+  {
+    "key": "eventDate",
+    "value": "2024-12-31T20:00:00Z",
+    "expected": "startDate"
+  },
+  {
+    "key": "desc",
+    "value": "Um produto revolucionário...",
+    "expected": "description"
+  },
+  {
+    "key": "qtyStock",
+    "value": 150,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "sizes",
+    "value": ["P", "M", "G"],
+    "expected": "size"
+  },
+  {
+    "key": "marca",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "avaliacoes",
+    "value": 4.7,
+    "expected": "ratingValue"
+  },
+  {
+    "key": "tags",
+    "value": ["eletrônico", "tecnologia", "2024"],
+    "expected": "keywords"
+  },
+  {
+    "key": "entrega",
+    "value": true,
+    "expected": "offers"
+  },
+  {
+    "key": "dimensoes",
+    "value": {"altura": 15, "largura": 7.5, "profundidade": 0.8},
+    "expected": "depth"
+  },
+  {
+    "key": "peso",
+    "value": 188.5,
+    "expected": "weight"
+  },
+  {
+    "key": "corHex",
+    "value": "#FF5733",
+    "expected": "color"
+  },
+  {
+    "key": "garantiaMeses",
+    "value": 24,
+    "expected": "warranty"
+  },
+  {
+    "key": "vendedor",
+    "value": "ElectroStore Ltda",
+    "expected": "seller"
+  },
+  {
+    "key": "pagamentos",
+    "value": ["credit_card", "pix", "boleto"],
+    "expected": "acceptedPaymentMethod"
+  },
+  {
+    "key": "site",
+    "value": "https://www.exemplo.com.br",
+    "expected": "url"
+  },
+  {
+    "key": "faq",
+    "value": [
+      {"pergunta": "Tem garantia?", "resposta": "Sim, 24 meses"},
+      {"pergunta": "Frete grátis?", "resposta": "Acima de R$500"}
+    ],
+    "expected": "mainEntity"
+  },
+  {
+    "key": "codBarras",
+    "value": "7891234567890",
+    "expected": "gtin13"
+  },
+  {
+    "key": "dtFabricacao",
+    "value": "2024-01-15",
+    "expected": "productionDate"
+  },
+  {
+    "key": "material",
+    "value": "Alumínio aeronáutico",
+    "expected": "material"
+  },
+  {
+    "key": "voltagem",
+    "value": 220,
+    "expected": "voltage"
+  },
+  {
+    "key": "certificacoes",
+    "value": ["ANATEL", "INMETRO", "CE"],
+    "expected": "hasCertification"
+  },
+  {
+    "key": "videoDemo",
+    "value": "https://youtu.be/exemplo",
+    "expected": "video"
+  },
+  {
+    "key": "avaliacoesClientes",
+    "value": [
+      {"nome": "Cliente A", "nota": 5, "comentario": "Excelente!"},
+      {"nome": "Cliente B", "nota": 4, "comentario": "Bom produto"}
+    ],
+    "expected": "review"
+  }
+]
