@@ -1,11 +1,611 @@
 [
   {
-    "key": "productName",
+    "key": "data_productName",
     "value": "Smartphone X200",
     "expected": "name"
   },
   {
-    "key": "unitPrice",
+    "key": "data_unitPrice",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "prodCode_data",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "data_available_field",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "item_releaseDate",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "data_manufacturer_info",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "data_category_info",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "prod_description_val",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "data_color_field",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "info_weight_field",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "item_dimension_data",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "data_rating_info",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "prod_reviewCount_info",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "prod_stock",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "info_imageUrl_info",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "data_warranty_data",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "item_discount_field",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "data_brandName_data",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "prod_shippingTime_data",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "soldBy_data",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "barcode_info",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "prod_modelNum_field",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "data_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "prod_totalReviews",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_phoneSupport_val",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "info_emailSupport_val",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "data_location",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "info_storeId",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "item_inStock_info",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "info_launchYear_data",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_productName_data",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "unitPrice_field",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "info_prodCode_field",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "info_available",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "releaseDate_field",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "manufacturer",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "item_category",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "item_description_data",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "color_field",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "info_weight_val",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "dimension_data",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "data_rating",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "data_reviewCount_field",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "data_stock",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "imageUrl_field",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "warranty_val",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "info_discount_info",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "data_brandName_data",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "prod_shippingTime_field",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "soldBy_val",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "item_barcode_data",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "item_modelNum_field",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "prod_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "item_totalReviews_field",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "phoneSupport_data",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "data_emailSupport_info",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "item_location_field",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "storeId",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "info_inStock_field",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "item_launchYear_data",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "productName_val",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "info_unitPrice_info",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "data_prodCode_data",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "info_available_val",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "item_releaseDate_val",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "manufacturer_data",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "data_category",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "prod_description_field",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "info_color_val",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "data_weight_val",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "prod_dimension_field",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "prod_rating",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "info_reviewCount",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "prod_stock",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "prod_imageUrl_data",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "data_warranty_info",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "discount",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "brandName_field",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "info_shippingTime",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "soldBy_field",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "barcode_data",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "info_modelNum_info",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "data_website_data",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "item_totalReviews_data",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_phoneSupport_info",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "info_emailSupport_val",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "prod_location_data",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "prod_storeId_data",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "data_inStock_info",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "info_launchYear_field",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "item_productName_val",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "info_unitPrice_data",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "prod_prodCode_data",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "item_available_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "info_releaseDate",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_manufacturer_info",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "item_category_val",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "prod_description_data",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "prod_color_data",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "data_weight",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "item_dimension_val",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "info_rating",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "data_reviewCount_data",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "item_stock",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "info_imageUrl",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "data_warranty_field",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "item_discount_info",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "item_brandName_field",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "prod_shippingTime",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "item_soldBy_data",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "info_barcode_field",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "data_modelNum_info",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "info_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "totalReviews_val",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "prod_phoneSupport_data",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "item_emailSupport_val",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "data_location_field",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "data_storeId_val",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "data_inStock_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "item_launchYear_val",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "item_productName",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "unitPrice_field",
     "value": 1599.99,
     "expected": "price"
   },
@@ -15,144 +615,888 @@
     "expected": "productID"
   },
   {
-    "key": "addrStreet",
-    "value": "Rua das Flores, 123",
-    "expected": "streetAddress"
+    "key": "item_available_val",
+    "value": true,
+    "expected": "availability"
   },
   {
-    "key": "coord",
-    "value": {"lat": -23.5505, "lng": -46.6333},
-    "expected": "geo"
+    "key": "item_releaseDate_data",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
   },
   {
-    "key": "tel",
-    "value": "+5511999999999",
-    "expected": "telephone"
+    "key": "item_manufacturer_val",
+    "value": "TechBrand",
+    "expected": "manufacturer"
   },
   {
-    "key": "emplID",
-    "value": "ID-7890",
-    "expected": "employeeID"
+    "key": "prod_category_info",
+    "value": "Electronics",
+    "expected": "category"
   },
   {
-    "key": "eventDate",
-    "value": "2024-12-31T20:00:00Z",
-    "expected": "startDate"
-  },
-  {
-    "key": "desc",
-    "value": "Um produto revolucionário...",
+    "key": "info_description_val",
+    "value": "High-end smartphone with AMOLED display",
     "expected": "description"
   },
   {
-    "key": "qtyStock",
-    "value": 150,
-    "expected": "inventoryLevel"
+    "key": "info_color_data",
+    "value": "Black",
+    "expected": "color"
   },
   {
-    "key": "sizes",
-    "value": ["P", "M", "G"],
+    "key": "weight_info",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "item_dimension",
+    "value": "150x75x8 mm",
     "expected": "size"
   },
   {
-    "key": "marca",
+    "key": "info_rating_field",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "data_reviewCount",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "item_stock_info",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "data_imageUrl_field",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "prod_warranty_val",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "prod_discount_info",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "prod_brandName_info",
     "value": "TechBrand",
     "expected": "brand"
   },
   {
-    "key": "avaliacoes",
-    "value": 4.7,
-    "expected": "ratingValue"
+    "key": "prod_shippingTime_val",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
   },
   {
-    "key": "tags",
-    "value": ["eletrônico", "tecnologia", "2024"],
-    "expected": "keywords"
-  },
-  {
-    "key": "entrega",
-    "value": true,
-    "expected": "offers"
-  },
-  {
-    "key": "dimensoes",
-    "value": {"altura": 15, "largura": 7.5, "profundidade": 0.8},
-    "expected": "depth"
-  },
-  {
-    "key": "peso",
-    "value": 188.5,
-    "expected": "weight"
-  },
-  {
-    "key": "corHex",
-    "value": "#FF5733",
-    "expected": "color"
-  },
-  {
-    "key": "garantiaMeses",
-    "value": 24,
-    "expected": "warranty"
-  },
-  {
-    "key": "vendedor",
-    "value": "ElectroStore Ltda",
+    "key": "prod_soldBy_field",
+    "value": "Tech Store",
     "expected": "seller"
   },
   {
-    "key": "pagamentos",
-    "value": ["credit_card", "pix", "boleto"],
-    "expected": "acceptedPaymentMethod"
-  },
-  {
-    "key": "site",
-    "value": "https://www.exemplo.com.br",
-    "expected": "url"
-  },
-  {
-    "key": "faq",
-    "value": [
-      {"pergunta": "Tem garantia?", "resposta": "Sim, 24 meses"},
-      {"pergunta": "Frete grátis?", "resposta": "Acima de R$500"}
-    ],
-    "expected": "mainEntity"
-  },
-  {
-    "key": "codBarras",
-    "value": "7891234567890",
+    "key": "prod_barcode",
+    "value": "1234567890123",
     "expected": "gtin13"
   },
   {
-    "key": "dtFabricacao",
-    "value": "2024-01-15",
-    "expected": "productionDate"
+    "key": "info_modelNum_val",
+    "value": "X200-BLK",
+    "expected": "model"
   },
   {
-    "key": "material",
-    "value": "Alumínio aeronáutico",
-    "expected": "material"
+    "key": "item_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
   },
   {
-    "key": "voltagem",
-    "value": 220,
-    "expected": "voltage"
+    "key": "prod_totalReviews_info",
+    "value": 400,
+    "expected": "reviewCount"
   },
   {
-    "key": "certificacoes",
-    "value": ["ANATEL", "INMETRO", "CE"],
-    "expected": "hasCertification"
+    "key": "item_phoneSupport",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
   },
   {
-    "key": "videoDemo",
-    "value": "https://youtu.be/exemplo",
-    "expected": "video"
+    "key": "data_emailSupport_field",
+    "value": "support@techbrand.com",
+    "expected": "email"
   },
   {
-    "key": "avaliacoesClientes",
-    "value": [
-      {"nome": "Cliente A", "nota": 5, "comentario": "Excelente!"},
-      {"nome": "Cliente B", "nota": 4, "comentario": "Bom produto"}
-    ],
-    "expected": "review"
+    "key": "location_field",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "storeId",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "prod_inStock_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "data_launchYear",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_productName_data",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "info_unitPrice_field",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "data_prodCode_field",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "prod_available_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "releaseDate_field",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "prod_manufacturer_data",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "item_category_data",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "data_description_data",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "info_color_field",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "item_weight_field",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "dimension_info",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "prod_rating_data",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "prod_reviewCount_val",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_stock_val",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "data_imageUrl_val",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "data_warranty_info",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "info_discount",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "info_brandName_info",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "shippingTime_val",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "prod_soldBy",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "prod_barcode_field",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "info_modelNum_val",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "item_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "info_totalReviews",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "prod_phoneSupport_data",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "item_emailSupport_data",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "prod_location_info",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "info_storeId_info",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "data_inStock_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "info_launchYear_val",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "productName",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "item_unitPrice_info",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "prod_prodCode",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "available",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "data_releaseDate_info",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_manufacturer_val",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "info_category",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "data_description",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "item_color_info",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "info_weight",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "dimension_val",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "prod_rating_data",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "prod_reviewCount_data",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "stock_data",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "info_imageUrl_val",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "item_warranty_info",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "discount_info",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "info_brandName",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "data_shippingTime_val",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "soldBy_field",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "info_barcode_field",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "data_modelNum_data",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "website_field",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "prod_totalReviews_data",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "data_phoneSupport",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "prod_emailSupport_val",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "data_location",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "storeId_data",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "inStock_field",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "launchYear",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_productName_data",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "info_unitPrice_data",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "item_prodCode_data",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "item_available_field",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "data_releaseDate",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "prod_manufacturer_data",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "info_category_info",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "item_description_data",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "prod_color_info",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "item_weight_info",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "data_dimension_val",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "item_rating",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "prod_reviewCount_field",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_stock",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "item_imageUrl_info",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "info_warranty_val",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "discount",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "data_brandName",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "shippingTime_info",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "data_soldBy_val",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "item_barcode_val",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "prod_modelNum_data",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "item_website_val",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "info_totalReviews_info",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "phoneSupport_field",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "prod_emailSupport",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "info_location_field",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "storeId_info",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "info_inStock_val",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "data_launchYear_data",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "productName_info",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "unitPrice_field",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "item_prodCode",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "data_available_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "item_releaseDate",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "info_manufacturer",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "prod_category_val",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "description_field",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "data_color_field",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "item_weight_data",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "item_dimension_info",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "data_rating_val",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "info_reviewCount_info",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_stock_data",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "info_imageUrl_info",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "prod_warranty_info",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "data_discount_info",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "info_brandName_field",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "info_shippingTime_field",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "soldBy",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "barcode",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "data_modelNum",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "data_website",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "data_totalReviews_field",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "info_phoneSupport_field",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "item_emailSupport_val",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "item_location_val",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "item_storeId_info",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "item_inStock_data",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "info_launchYear_field",
+    "value": 2024,
+    "expected": "releaseDate"
+  },
+  {
+    "key": "prod_productName",
+    "value": "Smartphone X200",
+    "expected": "name"
+  },
+  {
+    "key": "data_unitPrice_val",
+    "value": 1599.99,
+    "expected": "price"
+  },
+  {
+    "key": "data_prodCode_field",
+    "value": "PC-8890-Z",
+    "expected": "productID"
+  },
+  {
+    "key": "data_available",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "prod_releaseDate",
+    "value": "2024-10-15",
+    "expected": "releaseDate"
+  },
+  {
+    "key": "data_manufacturer_field",
+    "value": "TechBrand",
+    "expected": "manufacturer"
+  },
+  {
+    "key": "info_category_val",
+    "value": "Electronics",
+    "expected": "category"
+  },
+  {
+    "key": "info_description_val",
+    "value": "High-end smartphone with AMOLED display",
+    "expected": "description"
+  },
+  {
+    "key": "prod_color_field",
+    "value": "Black",
+    "expected": "color"
+  },
+  {
+    "key": "item_weight",
+    "value": "180g",
+    "expected": "weight"
+  },
+  {
+    "key": "info_dimension",
+    "value": "150x75x8 mm",
+    "expected": "size"
+  },
+  {
+    "key": "item_rating_val",
+    "value": 4.5,
+    "expected": "aggregateRating"
+  },
+  {
+    "key": "data_reviewCount_info",
+    "value": 210,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "data_stock_field",
+    "value": 12,
+    "expected": "inventoryLevel"
+  },
+  {
+    "key": "info_imageUrl_data",
+    "value": "https://example.com/image.jpg",
+    "expected": "image"
+  },
+  {
+    "key": "info_warranty",
+    "value": "2 years",
+    "expected": "warranty"
+  },
+  {
+    "key": "prod_discount_data",
+    "value": 0.15,
+    "expected": "discount"
+  },
+  {
+    "key": "info_brandName_data",
+    "value": "TechBrand",
+    "expected": "brand"
+  },
+  {
+    "key": "data_shippingTime",
+    "value": "2-3 days",
+    "expected": "deliveryTime"
+  },
+  {
+    "key": "data_soldBy_field",
+    "value": "Tech Store",
+    "expected": "seller"
+  },
+  {
+    "key": "item_barcode_val",
+    "value": "1234567890123",
+    "expected": "gtin13"
+  },
+  {
+    "key": "info_modelNum_field",
+    "value": "X200-BLK",
+    "expected": "model"
+  },
+  {
+    "key": "website_field",
+    "value": "https://techbrand.com/x200",
+    "expected": "url"
+  },
+  {
+    "key": "item_totalReviews_val",
+    "value": 400,
+    "expected": "reviewCount"
+  },
+  {
+    "key": "data_phoneSupport_val",
+    "value": "+1-800-555-1234",
+    "expected": "telephone"
+  },
+  {
+    "key": "item_emailSupport_info",
+    "value": "support@techbrand.com",
+    "expected": "email"
+  },
+  {
+    "key": "info_location_field",
+    "value": "New York, USA",
+    "expected": "location"
+  },
+  {
+    "key": "info_storeId_data",
+    "value": "store-889",
+    "expected": "branchCode"
+  },
+  {
+    "key": "item_inStock_info",
+    "value": true,
+    "expected": "availability"
+  },
+  {
+    "key": "data_launchYear_val",
+    "value": 2024,
+    "expected": "releaseDate"
   }
 ]
