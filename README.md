@@ -1,4 +1,5 @@
 Enriquecimento Semântico de Dados via Modelos de Linguagem
+
 Este repositório contém o código-fonte e os dados utilizados no projeto de pesquisa "Enriquecimento Semântico de Dados via Modelos de Linguagem: Uma Abordagem Interativa para APIs", desenvolvido no Programa de Pós-Graduação em Tecnologia da Informação do IFPB.
 
 📌 Descrição do Projeto
